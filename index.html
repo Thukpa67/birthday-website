@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A Little Piece of Paradise</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- SPIDER-MAN WELCOME SCREEN -->
+  <div class="spidey-screen" id="spideyScreen">
+    <div class="spidey-box">
+
+      <h2>SPIDEY CHECK</h2>
+
+      <p class="spidey-question">
+        <span>Do you like Spider-Man?</span>
+        <img src="spiderman.png" alt="Spider-Man" class="spiderman-icon">
+      </p>
+
+      <div class="spidey-buttons">
+        <button type="button" onclick="enterBirthday()">YES</button>
+        <button type="button" onclick="enterBirthday()">YES</button>
+      </div>
+
+      <p id="spideyResponse"></p>
+
+    </div>
+  </div>
+
+  <!-- MAIN BIRTHDAY PAGE -->
+  <main class="page">
+
+    <p class="subtitle">A LITTLE PIECE OF PARADISE 🥥</p>
+
+    <h1>HAPPY BIRTHDAY<br>COCONUT 🌴</h1>
+
+    <p class="intro">Words may not always be enough to express everything...</p>
+    <p class="instruction">I've got a little something for you...</p>
+    <p class="hint">TAP THE ENVELOPE TO OPEN ♡</p>
+
+    <!-- ENVELOPE -->
+    <div class="envelope-area" id="envelope">
+
+      <div class="envelope-back"></div>
+
+      <div class="letter">
+        <div class="letter-content">
+
+          <p class="letter-date">A SPECIAL DAY ♡</p>
+
+          <h2 class="birthday-title">Happy Birthday, Homo-lena! 🥥❤️</h2>
+
+          <p>I know I'm not really well-versed in expressing myself, but I've tried my best.</p>
+
+          <p>You've been the greatest female friend I've ever had. Even on days when I felt low, on the countless nights I cried, I thought about you and somehow felt better. Though you weren't physically present, your emotional presence was enough to make me feel better. It was almost like my mind wiped my tears at the mere thought of you.</p>
+
+          <p>You were one of my only true friends, the only one who could somewhat understand me.</p>
+
+          <p>I know our friendship isn't as deep as it used to be, but I still consider you my home girl. I just want to tell you that I still mention you in my prayers sometimes.</p>
+
+          <p>Also, I really miss the old times. Last year, before Children's Day, we texted weird ass shi as a joke, and I legit couldn't face you the next day.</p>
+
+          <p>That one time we were benchmates and were so talkative together that they immediately changed our seats. I never thought a random girl would make me this emotional. AHH.</p>
+
+          <p>Those days when we'd send random photos to each other, and those days when we'd act freaky and you'd say that you'd peg me. 😭</p>
+
+          <p>I wish I could relive those SCI exhibition and NIT days with you, just doing bullshit, talking, laughing, and spending time together.</p>
+
+          <p>Also, you were one of the greatest wingmen I've ever had, and thanks for your wingmanship with every single girl. Maybe I could be your wingman too, or maybe not.</p>
+
+          <p>I miss you a lot, especially when there's no one to talk about my girlfriend with, and I also miss listening to random tea from you. Ah, Helena, I miss your annoyingly sweet voice randomly shouting at me, even though I despised it before.</p>
+
+          <p>I don't know where life will take us or how often we'll get to talk, but I hope that years from now, we'll find our way back to being close friends. I hope I'll be privileged enough to call myself your homeboy again, and that we'll be able to look back at all these memories and laugh about them together.</p>
+
+          <p>I hope we can have a fresh start and become close friends again :P</p>
+
+          <p><strong>MY APOLOGIES, THY MAJESTY. I COULDN'T BRING YOU THE PRECIOUS FELIX THE FEMBOY. 🥺✌️</strong></p>
+
+          <p>Happy birthday to my 7th–9th grade quiz partner, my home forever.</p>
+
+          <h2>I LOVE YOU, MY COCONUT!! 🥥❤️</h2>
+
+          <!-- PHOTO AND VIDEO GALLERY -->
+          <div class="photo-gallery">
+
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+            <img src="photo4.jpg" alt="Photo 4">
+            <img src="photo5.jpg" alt="Photo 5">
+            <img src="photo6.jpg" alt="Photo 6">
+            <img src="photo7.jpg" alt="Photo 7">
+            <img src="photo8.jpg" alt="Photo 8">
+
+            <video controls muted playsinline preload="metadata" poster="video-thumbnail.jpg">
+              <source src="video.mp4" type="video/mp4">
+              Your browser does not support video playback.
+            </video>
+
+            <p class="three-of-us">
+              I long for the three of us to be together again 😕
+            </p>
+
+          </div>
+
+          <!-- MUSIC BUTTON -->
+          <div class="music-control">
+            <img
+              id="musicButton"
+              src="play.png"
+              alt="Play music"
+              role="button"
+              tabindex="0"
+            >
+          </div>
+
+          <p class="signature">
+            - Your once dearest Homeboy, Gourav(🕸️)
+          </p>
+
+        </div>
+      </div>
+
+      <div class="envelope-front"></div>
+      <div class="envelope-flap"></div>
+      <div class="envelope-heart">♡</div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <p class="footer">
+      <span>
+        MADE WITH
+        <span class="spidey">SPIDEY</span>
+        <span class="senses">SENSES</span>
+      </span>
+
+      <img src="spidey.png" class="spidey-image" alt="">
+    </p>
+
+    <!-- AUDIO -->
+    <audio id="birthdaySong" preload="auto">
+      <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
